@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* 1rem = 10px  10/16*100 =  */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgba(240, 234, 234, 0.87);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    margin: 0 2.4rem;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 4.5rem;
+}
+
+h2 {
+    margin-bottom: 1.6rem;
+    font-weight: 500;
+}
+
+h3 {
+    text-align: center;
+    padding: 1rem;
+    font-weight: 400;
+}
+ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 1.6rem;
+}
+
+.btn {
+    display: block;
+    background-color: purple;
+    width: 100%;
+    cursor: pointer;
+    padding: 1.8rem;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(117, 12, 117);;
+}
